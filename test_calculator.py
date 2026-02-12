@@ -9,7 +9,7 @@ class TestScientificCalculator(unittest.TestCase):
     # -------- UNIT TESTS -------- #
 
     def test_add(self):
-        self.assertEqual(self.calc.add(5, 3), 10)
+        self.assertEqual(self.calc.add(5, 3), 8)
 
     def test_divide(self):
         self.assertEqual(self.calc.divide(10, 2), 5)
